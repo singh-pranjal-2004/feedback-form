@@ -121,6 +121,23 @@
         #LangTable {
             margin-bottom: 15px;
         }
+
+        /* Styles for back to home button */
+        .back-to-home-btn {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-home-btn:hover {
+            background-color: #555;
+        }
     </style>
 
     <script type="text/javascript">
@@ -173,6 +190,9 @@
                 </div>
                 <div id="LangTable"><a href="https://www.instagram.com/" id="aa"></a>
                 </div>
+                
+                <!-- Back to Home button -->
+                <button onclick="window.location.href = 'https://www.instagram.com/'" class="back-to-home-btn">Back to Home</button>
             </div>
         </div>
     </div>
