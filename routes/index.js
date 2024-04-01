@@ -31,6 +31,7 @@ router.post('/', (req, res, next) => {
                 res.status(500).json({ message: "An error occurred while saving feedback" });
             } else {
                 res.status(200).json({ message: "Thank you for your feedback" });
+                
             }
         });
     }
